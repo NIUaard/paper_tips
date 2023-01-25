@@ -8,7 +8,7 @@ An excellent paper about scientific writing is availabe at XXX
 ## latex formating
 
 ### Symbols
-Note that when quoting a value with unit the unit should be separated by an insecable space i.e. 10.23~m $10.23\mbox{~m}$. the $\textmu{}$. 
+Note that when quoting a value with unit the unit should be separated by an insecable space i.e. ```10.23~m``` $10.23\mbox{~m}$. the $\textmu{}$. 
 
 
 ## tables
