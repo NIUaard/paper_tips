@@ -2,16 +2,16 @@
 
 This provides some advices for writing a scientific paper (or lab report). It focus on writing using the LaTeX word-processing program. 
 
-In LaTeX you can cross reference figure, equation, tale and algorithm so that the numerbering is automatically generated. A good practice is to use meaninggfull tags. For instance a figure could be tagged with the ```\label{fig:bunchDistribution}``` and latter called in the text as ```Figure.~\ref{fig:bunchDistribution} displayed the bunch distribution at the location [...]```. The same can be done for other object for instance ```\label{eq:bunchDistributionInit}``` or ```\label{tab:bunchDistributionInit}```. The convention to tag the object with a string defining the type of the object and the object label (separated with a ```:```) is good practice. For very long manuscript or thesis the lab can also have another tag refereing to the chapter, i.e.  ```\label{chapterIntro:tab:bunchDistributionInit}```. 
-
-Generally when refering to figure, and equation you can use the abbreviated form ```[...] shown in Eq.~\ref{eq:bunchDistributionInit}``` or ```appears in Fig.~\ref{fig:bunchDistributionInit}```. The convenstion is however to spell out the object if it start the sentence, i.e. ``Figure ~\ref{fig:bunchDistributionInit} presents the [....]```.
-
 
 ## general
 An excellent paper about scientific writing is availabe at XXX
 
-
 ## latex formating
+
+In LaTeX you can cross reference figure, equation, tale and algorithm so that the numerbering is automatically generated. A good practice is to use meaninggfull tags. For instance a figure could be tagged with the ```\label{fig:bunchDistribution}``` and latter called in the text as ```Figure.~\ref{fig:bunchDistribution} displayed the bunch distribution at the location [...]```. The same can be done for other object for instance ```\label{eq:bunchDistributionInit}``` or ```\label{tab:bunchDistributionInit}```. The convention to tag the object with a string defining the type of the object and the object label (separated with a ```:```) is good practice. For very long manuscript or thesis the lab can also have another tag refereing to the chapter, i.e.  ```\label{chapterIntro:tab:bunchDistributionInit}```. 
+
+Generally when refering to figure, and equation you can use the abbreviated form ```[...] shown in Eq.~\ref{eq:bunchDistributionInit}``` or ```appears in Fig.~\ref{fig:bunchDistributionInit}```. The convenstion is however to spell out the object if it starts a sentence, i.e. `'`Figure ~\ref{fig:bunchDistributionInit} presents the [....]```.
+
 
 ### Symbols
 **value and units:** Note that when quoting a value with unit the unit should be separated by an insecable space i.e. ```10.23~m``` (where ~ refers to the insecable space) to give the formating $10.23\mbox{~m}$. The use of the unit package (toggled by adding the line ```\usepackage{siunitx}
