@@ -4,3 +4,10 @@ This provides some advices for writing a scientific paper (or lab report). It fo
 ## general
 An excellent paper about scientific writing is availabe at XXX
 
+
+## latex formating
+
+## tables
+
+## figure & plots
+
