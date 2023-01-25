@@ -8,13 +8,12 @@ An excellent paper about scientific writing is availabe at XXX
 ## latex formating
 
 ### Symbols
-value and units: Note that when quoting a value with unit the unit should be separated by an insecable space i.e. ```10.23~m``` (where ~ refers to the insecable space) to give the formating $10.23\mbox{~m}$. The use of the unit package (toggled by adding the line ```\usepackage{siunitx}
+**value and units:** Note that when quoting a value with unit the unit should be separated by an insecable space i.e. ```10.23~m``` (where ~ refers to the insecable space) to give the formating $10.23\mbox{~m}$. The use of the unit package (toggled by adding the line ```\usepackage{siunitx}
 ``` in your LaTeX file preamble) is also recommended; for instance ```$\SI{1}{\giga\electronvolt}$``` gives $1\mbox{~GeV}$.
 
-symbols in text body: giving the value of a parameter in the text body should be done using an equation format. For instance the statement l=10.23 m should be written  ```$l=10.23$~m``` so to appear as $a=10.23\mbox{~m}$. 
+**symbols in text body:** giving the value of a parameter in the text body should be done using an equation format. For instance the statement l=10.23 m should be written  ```$l=10.23$~m``` so to appear as $l=10.23\mbox{~m}$. 
 
-the $\textmu{}$. 
-
+**the special case of $\textmu{}$:** unit involving microns should use the ```\textmu{}``` command rather than the ```$\mu$``` mathematical symbol for instance ```10.23\mbox{~\textmu{m}}``` is written as $10.23\mbox{~\textmu{m}$ rather than ```$10.23\mbox{~$\mu${m}$``` (which would results in an italicezed mu: $10.23\mbox{~$\mu${m}$)
 
 ## tables
 
