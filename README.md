@@ -8,7 +8,7 @@ An excellent paper about scientific writing is availabe at XXX
 ## latex formating
 
 ### Symbols
-Note that the $textmu{}$. 
+Note that the $\textmu{}$. 
 
 
 ## tables
