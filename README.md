@@ -1,4 +1,5 @@
-# Resources/Tips for writting a good scientific paper
+# Resources/Tips for writting a scientific paper/report
+
 This provides some advices for writing a scientific paper (or lab report). It focus on writing using the LaTeX word-processing program. 
 
 ## general
@@ -13,7 +14,7 @@ An excellent paper about scientific writing is availabe at XXX
 
 **symbols in text body:** giving the value of a parameter in the text body should be done using an equation format. For instance the statement l=10.23 m should be written  ```$l=10.23$~m``` so to appear as $l=10.23\mbox{~m}$. 
 
-**the special case of $\textmu{}$:** unit involving microns should use the ```\textmu{}``` command rather than the ```$\mu$``` mathematical symbol for instance ```10.23\mbox{~\textmu{m}}``` is written as $10.23\mbox{~\textmu{m}}$ rather than ```$10.23\mbox{~$\mu${m}}$``` (which would results in an italicezed mu: $10.23\mbox{~$\mu${m}$)
+**the special case of $\textmu{}$:** unit involving microns should use the ```\textmu{}``` command rather than the ```$\mu$``` mathematical symbol for instance ```10.23\mbox{~}\textmu{m}}``` is written as $10.23\mbox{~}\textmu{m}$ rather than ```$10.23\mbox{~$\mu${m}}$``` (which would results in an italicezed mu: $10.23\mbox{~$\mu${m}$)
 
 ## tables
 
