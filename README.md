@@ -1,4 +1,4 @@
-# Resources/Tips for writting a scientific paper/report
+# Resources/Tips for composing a scientific paper/report
 
 This note provides some advices for writing a scientific paper (or lab report). It focuses on writing using the LaTeX word-processing program. 
 
