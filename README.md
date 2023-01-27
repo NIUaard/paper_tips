@@ -21,6 +21,14 @@ Generally when refering to figure, and equation you can use the abbreviated form
 
 **the special case of $\textmu{}$:** unit involving microns should use the ```\textmu{}``` command rather than the ```$\mu$``` mathematical symbol for instance ```10.23\mbox{~}\textmu{m}}``` is written as $10.23\mbox{~}\textmu{m}$ rather than ```$10.23\mbox{~$\mu${m}}$``` (which would results in an italicezed mu: $10.23\mbox{~$\mu${m}$)
 
+### Equations
+when writing an equation you should make sure all the symbol have been a-priori introduced. If new symbols appears in the equation they should be defined immediately dollowing the equation. For instance
+
+ \begin{equation}
+     \Delta \phi (t) = \frac{\pi d n_0^3 r_{41} E(t)}{\lambda}
+ \end{equation}
+
+
 ## tables
 
 ## figure & plots
