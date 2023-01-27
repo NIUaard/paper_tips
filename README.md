@@ -3,8 +3,14 @@
 This provides some advices for writing a scientific paper (or lab report). It focus on writing using the LaTeX word-processing program. 
 
 
-## general
+## General
 An excellent paper about scientific writing is availabe at XXX. There are many good references in the litterature including https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1
+
+### Title
+The title of the paer should be crisp and inform the nature of the work (experiment versus theory or simulations) and topic. Avoid using "first" or "novel" as paper are typically pushed based on the advances they support (so all paper should have some degree of novelty with resepect to prior work on the topic). 
+
+### Authorship
+There is no clear convention on authorship and list of authors. In our group the list of authors should have the main authors (the student in charge of the research who drafted the paper) followed by all contributors in alphabetical order. Effective 2023, refereed paper should have a athors contribution statement after the acknowledgement (some of the journals do require such a section). For paper published in reference proceedings this section should be omitted given the limited number of page. The main author can alo add her/his formal (institution) contact information (email). Avoid using personal e-mail address. 
 
 ## latex formating
 
