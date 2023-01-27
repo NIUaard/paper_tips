@@ -4,11 +4,11 @@ This provides some advices for writing a scientific paper (or lab report). It fo
 
 
 ## general
-An excellent paper about scientific writing is availabe at XXX
+An excellent paper about scientific writing is availabe at XXX. There are many good references in the litterature including https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1
 
 ## latex formating
 
-In LaTeX you can cross reference figure, equation, tale and algorithm so that the numerbering is automatically generated. A good practice is to use meaninggfull tags. For instance a figure could be tagged with the ```\label{fig:bunchDistribution}``` and latter called in the text as ```Figure.~\ref{fig:bunchDistribution} displayed the bunch distribution at the location [...]```. The same can be done for other object for instance ```\label{eq:bunchDistributionInit}``` or ```\label{tab:bunchDistributionInit}```. The convention to tag the object with a string defining the type of the object and the object label (separated with a ```:```) is good practice. For very long manuscript or thesis the lab can also have another tag refereing to the chapter, i.e.  ```\label{chapterIntro:tab:bunchDistributionInit}```. 
+In LaTeX you can cross reference figure, equation, tale and algorithm so that the numerbering is automatically generated. A good practice is to use meaning full tags. For instance a figure could be tagged with the ```\label{fig:bunchDistribution}``` and latter called in the text as ```Figure.~\ref{fig:bunchDistribution} displayed the bunch distribution at the location [...]```. The same can be done for other object for instance ```\label{eq:bunchDistributionInit}``` or ```\label{tab:bunchDistributionInit}```. The convention to tag the object with a string defining the type of the object and the object label (separated with a ```:```) is good practice. For very long manuscript or thesis the label can also have another tag refering to the chapter, i.e.  ```\label{chapt1:tab:bunchDistributionInit}```. Similarly cross-referencing of section can be accomplished by adding the reference label in the section ```\section{Introduction and Motivation \ref{sec:intro}```. 
 
 Generally when refering to figure, and equation you can use the abbreviated form ```[...] shown in Eq.~\ref{eq:bunchDistributionInit}``` or ```appears in Fig.~\ref{fig:bunchDistributionInit}```. The convenstion is however to spell out the object if it starts a sentence, i.e. `'`Figure ~\ref{fig:bunchDistributionInit} presents the [....]```.
 
