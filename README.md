@@ -24,9 +24,10 @@ Generally when refering to figure, and equation you can use the abbreviated form
 ### Equations
 when writing an equation you should make sure all the symbol have been a-priori introduced. If new symbols appears in the equation they should be defined immediately dollowing the equation. For instance
 
- \begin{equation}
-     \Delta \phi (t) = \frac{\pi d n_0^3 r_{41} E(t)}{\lambda}
- \end{equation}
+"[...] the optical retardance scaled with the aplied the electric field $E(t)$ folloing
+$     \Delta \phi (t) = \frac{\pi d n_0^3 r_{41} E(t)}{\lambda},$
+where $\lambda$ is the wavelength of the optical pulse, $n_0$ the index of refraction and $r_{41}$ the electro-optics coefficient. 
+
 
 
 ## tables
