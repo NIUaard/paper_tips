@@ -1,6 +1,6 @@
 # Resources/Tips for writting a scientific paper/report
 
-This provides some advices for writing a scientific paper (or lab report). It focus on writing using the LaTeX word-processing program. 
+This note provides some advices for writing a scientific paper (or lab report). It focuses on writing using the LaTeX word-processing program. 
 
 
 ## General
@@ -34,7 +34,13 @@ when writing an equation you should make sure all the symbol have been a-priori 
 $\Delta \phi (t) = \frac{\pi d n_0^3 r_{41} E(t)}{\lambda},$
 where $\lambda$ is the wavelength of the optical pulse, $n_0$ the index of refraction and $r_{41}$ the electro-optics coefficient." 
 
-
+The choice of indenting versus non-indenting an equation is dicated by the journal format and the importance of the equation. If indented the equation should be inserted between ```$``` signes as follows ```$ \Delta \phi (t) = \frac{\pi d n_0^3 r_{41} E(t)}{\lambda} ``` if non-indented the equation should be in a ```\eqnarray``` block as follows
+```
+\begin{eqnarray}
+ \Delta \phi (t) &=& \frac{\pi d n_0^3 r_{41} E(t)}{\lambda}
+\end{eqnarray}
+```
+Ponctuation around an equation should follow standard practice. That is is the equation is at the end of a sentence it should end with a period ```.``` directly in the block or between the ```$``` signs. 
 
 ## tables
 
