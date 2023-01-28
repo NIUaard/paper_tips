@@ -4,7 +4,7 @@ This note provides some advices for writing a scientific paper (or lab report). 
 
 
 ## General
-An excellent paper about scientific writing is availabe at XXX. There are many good references in the litterature including https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1
+An excellent paper about scientific writing by George Gopen is availabe at [ https://www.usenix.org/sites/default/files/gopen_and_swan_science_of_scientific_writing.pdf ] it appears in [American Scientist 78(6):550-558 (Nov-Dec 1990)]. There are many good references in the litterature including https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1
 
 There are a large number of LaTeX template for paper. Most often templates for conference proceedings are directly provided by the conference, while a large database of templates is available on OverLeaf at https://www.overleaf.com/latex/templates .
 
