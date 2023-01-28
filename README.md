@@ -6,15 +6,17 @@ This note provides some advices for writing a scientific paper (or lab report). 
 ## General
 An excellent paper about scientific writing is availabe at XXX. There are many good references in the litterature including https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1
 
+There are a large number of LaTeX template for paper. Most often templates for conference proceedings are directly provided by the conference, while a large database of templates is available on OverLeaf at https://www.overleaf.com/latex/templates .
+
 ### Title
 The title of the paer should be crisp and inform the nature of the work (experiment versus theory or simulations) and topic. Avoid using "first" or "novel" as paper are typically pushed based on the advances they support (so all paper should have some degree of novelty with resepect to prior work on the topic). 
 
 ### Authorship
 There is no clear convention on authorship and list of authors. In our group the list of authors should have the main authors (the student in charge of the research who drafted the paper) followed by all contributors in alphabetical order. Effective 2023, refereed paper should have a athors contribution statement after the acknowledgement (some of the journals do require such a section). For paper published in reference proceedings this section should be omitted given the limited number of page. The main author can alo add her/his formal (institution) contact information (email). Avoid using personal e-mail address. 
 
-## latex formating
+## Latex formating
 
-In LaTeX you can cross reference figure, equation, tale and algorithm so that the numerbering is automatically generated. A good practice is to use meaning full tags. For instance a figure could be tagged with the ```\label{fig:bunchDistribution}``` and latter called in the text as ```Figure~\ref{fig:bunchDistribution} displayed the bunch distribution at the location [...]```. The same can be done for other object for instance ```Eq.~\label{eq:bunchDistributionInit}``` or ```Table~\label{tab:bunchDistributionInit}```. The convention to tag the object with a string defining the type of the object and the object label (separated with a ```:```) is good practice. For very long manuscript or thesis the label can also have another tag refering to the chapter, i.e.  ```Eq.~\label{chapt1:tab:bunchDistributionInit}```. Similarly cross-referencing of section can be accomplished by adding the reference label in the section ```\section{Introduction and Motivation \ref{sec:intro}```. 
+In LaTeX you can cross reference figure, equation, tale and algorithm so that the numerbering is automatically generated. A good practice is to use meaning full tags. For instance a figure could be tagged with the ```\label{fig:bunchDistribution}``` and latter called in the text as ```Figure~\ref{fig:bunchDistribution} displayed the bunch distribution at the location [...]```. The same can be done for other object for instance ```Eq.~\label{eq:bunchDistributionInit}``` or ```Table~\label{tab:bunchDistributionInit}```. The convention to tag the object with a string defining the type of the object and the object label (separated with a ```:```) is good practice. For very long manuscript or thesis the label can also have another tag refering to the chapter, i.e.  ```Eq.~\label{chapt1:tab:bunchDistributionInit}```. Similarly cross-referencing of section can be accomplished by adding the reference label in the section ```\section{Introduction and Motivation \ref{sec:intro}```. For Figures and Tables, it is best to insert the ```\ref{}``` command in the Figure or Table captions directly. 
 
 Generally when refering to figure, and equation you can use the abbreviated form ```[...] shown in Eq.~\ref{eq:bunchDistributionInit}``` or ```appears in Fig.~\ref{fig:bunchDistributionInit}```. The convenstion is however to spell out the object if it starts a sentence, i.e. ```Figure ~\ref{fig:bunchDistributionInit} presents the [....]```.
 
@@ -42,11 +44,14 @@ The choice of indenting versus non-indenting an equation is dicated by the journ
 ```
 Ponctuation around an equation should follow standard practice. That is is the equation is at the end of a sentence it should end with a period ```.``` directly in the block or between the ```$``` signs. 
 
-## tables
+## Tables
 
-## figure & plots
+## Figure & plots
 ### general
-In general the figure should have any title (e.g. above plots) as the caption should be use to describe the figure content. The caption should be self contain and explain the figure including meaning of abbreviated labels, meaning of traces, etc...
+In general the figure should not have any title (e.g. above plots) and the caption should be use to describe the figure content. The caption should be self contained and explain the figure including meaning of abbreviated labels, meaning of traces, etc...
+
+### graphical arts
+A paper often include schematics. Simple schematics can be done in openOffice (slide) or equivalent. For better results, open-source software like inksscape [ https://inkscape.org/ ]  and Blender [ https://www.blender.org/ ] are recommended. 
 
 ### plots
 The labels of the plot should use LaTeX fonts similar to the one used in the text body. For matplotlib you can use the two mplg configuration files available in the directory matplotlib 
