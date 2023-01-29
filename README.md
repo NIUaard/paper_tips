@@ -18,7 +18,7 @@ There is no clear convention on authorship and list of authors. In our group the
 
 In LaTeX you can cross reference figure, equation, tale and algorithm so that the numerbering is automatically generated. A good practice is to use meaning full tags. For instance a figure could be tagged with the ```\label{fig:bunchDistribution}``` and latter called in the text as ```Figure~\ref{fig:bunchDistribution} displayed the bunch distribution at the location [...]```. The same can be done for other object for instance ```Eq.~\label{eq:bunchDistributionInit}``` or ```Table~\label{tab:bunchDistributionInit}```. The convention to tag the object with a string defining the type of the object and the object label (separated with a ```:```) is good practice. For very long manuscript or thesis the label can also have another tag refering to the chapter, i.e.  ```Eq.~\label{chapt1:tab:bunchDistributionInit}```. Similarly cross-referencing of section can be accomplished by adding the reference label in the section ```\section{Introduction and Motivation \ref{sec:intro}```. For Figures and Tables, it is best to insert the ```\ref{}``` command in the Figure or Table captions directly. 
 
-Generally when refering to figure, and equation you can use the abbreviated form ```[...] shown in Eq.~\ref{eq:bunchDistributionInit}``` or ```appears in Fig.~\ref{fig:bunchDistributionInit}```. The convenstion is however to spell out the object if it starts a sentence, i.e. ```Figure ~\ref{fig:bunchDistributionInit} presents the [....]```.
+Generally when refering to figure, and equation you can use the abbreviated form ```[...] described by Eq.~\ref{eq:bunchDistributionInit}``` or ```appears in Fig.~\ref{fig:bunchDistributionInit}```. The convention is however to spell out the object if it starts a sentence, i.e. ```Figure ~\ref{fig:bunchDistributionInit} presents the [....]```. The object "Table" and "Section" are rearely abbreviated. 
 
 
 ### Symbols
@@ -47,15 +47,15 @@ Ponctuation around an equation should follow standard practice. That is is the e
 ## Tables
 
 ## Figure & plots
-### general
+### General
 In general the figure should not have any title (e.g. above plots) and the caption should be use to describe the figure content. The caption should be self contained and explain the figure including meaning of abbreviated labels, meaning of traces, etc...
 
-### graphical arts
-A paper often include schematics. Simple schematics can be done in openOffice (slide) or equivalent. For better results, open-source software like inksscape [ https://inkscape.org/ ]  and Blender [ https://www.blender.org/ ] are recommended. 
+### Graphical arts
+A paper often include schematics. Simple schematics (electric circuits) can be done in openOffice (slide) or equivalent. For better results, open-source software like inksscape [ https://inkscape.org/ ]  and Blender [ https://www.blender.org/ ] are recommended. 
 
-### plots
+### Plots
 The labels of the plot should use LaTeX fonts similar to the one used in the text body. For matplotlib you can use the two mplg configuration files available in the directory matplotlib 
 
 The labels should have clearly indicate the quantity plotted and its units in parentheses "(units)" (avoid using brackets or others symbols instead of parentheses). The typical value should be on the order of unity that is if you plot the frequency in Hz and it has value of $10^15$ then it should be rescaled to have units of PHz. 
 
-In case of composite figure -- prepare the composite figure within the plotting pogram; see a matplotlib example at XXX. Avoid merging single-plot figure within LaTeX. The figure should also have a letter label so that it can be referenced in the caption and text body (using a letter label is better than refering the plot with respect to its location on the figure (e.g. top left...). 
+In case of composite figure, it is best to prepare the composite figure within the plotting pogram; see a matplotlib example at XXX. Avoid merging single-plot figure within LaTeX. The figure should also have a letter label so that it can be referenced in the caption and text body (using a letter label is better than refering the plot with respect to its location on the figure (e.g. top left...). 
