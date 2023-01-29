@@ -51,10 +51,10 @@ Ponctuation around an equation should follow standard practice. That is is the e
 In general the figure should not have any title (e.g. above plots) and the caption should be use to describe the figure content. The caption should be self contained and explain the figure including meaning of abbreviated labels, meaning of traces, etc...
 
 ### Graphical arts
-A paper often include schematics. Simple schematics (electric circuits) can be done in openOffice (slide) or equivalent. For better results, open-source software like inksscape [ https://inkscape.org/ ]  and Blender [ https://www.blender.org/ ] are recommended. 
+A paper often include schematics. Simple schematics (electric circuits) can be done in openOffice (slide) or equivalent. For better results, open-source software like [InkScape](https://inkscape.org/)  and [Blender] (https://www.blender.org/) are recommended. 
 
 ### Plots
-The plot axis label, legend and other annotations should all use LaTeX fonts similar to the one used in the text body. For matplotlib you can use or modify one of the several mplg configuration files available in the directory [a relative link](matplotlibConfigExample)
+The plot axis label, legend and other annotations should all use LaTeX fonts similar to the one used in the text body. For matplotlib you can use or modify one of the several mplg configuration files available in the [matplotlibConfigExample sub-directory](matplotlibConfigExample)
 
 The labels should have clearly indicate the quantity plotted and its units in parentheses "(units)" (avoid using brackets or others symbols instead of parentheses). The typical value should be on the order of unity that is if you plot the frequency in Hz and it has value of $10^15$ then it should be rescaled to have units of PHz. 
 
