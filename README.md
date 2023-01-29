@@ -65,4 +65,4 @@ ax1.plot (xx[:,0], (xx[:,4]/xx[2,4]-1),'d--', label=r'$\varepsilon_z$')  # creat
 ax1.text(0.075, 0.9,r'(a)', ha='center', va='center', transform=ax1.transAxes)  # add the tag (a) to the subplot
 
 ```
-so that it can be unambigously referenced in the caption and text body (using a letter label is better than refering the plot with respect to its location on the figure (e.g. top left...). 
+so that it can be unambigously referenced in the caption and text body (using a letter label is better than refering the plot with respect to its location on the figure (e.g. top left...).  
