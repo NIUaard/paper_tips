@@ -14,6 +14,27 @@ The title of the paer should be crisp and inform the nature of the work (experim
 ### Authorship
 There is no clear convention on authorship and list of authors. In our group the list of authors should have the main authors (the student in charge of the research who drafted the paper) followed by all contributors in alphabetical order. Effective 2023, refereed paper should have a athors contribution statement after the acknowledgement (some of the journals do require such a section). For paper published in reference proceedings this section should be omitted given the limited number of page. The main author can alo add her/his formal (institution) contact information (email). Avoid using personal e-mail address. 
 
+### bibliography
+An important aspect of writing paper is to credit historical development, related work, and previous research your paper is built on. This is the role of the bibliography. In LaTeX, the best way to manage the blbliography is to use the ```bibtex``` format. Specifically you can create a file ```myreference.bib`` that list the paper you wish to cite in the bibtex format. An entry in the bib file may look like
+```
+@article{RevModPhys.94.025006,
+  title = {Bunch shaping in electron linear accelerators},
+  author = {Ha, G. and Kim, K.-J. and Power, J. G. and Sun, Y. and Piot, P.},
+  journal = {Rev. Mod. Phys.},
+  volume = {94},
+  issue = {2},
+  pages = {025006},
+  numpages = {67},
+  year = {2022},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/RevModPhys.94.025006},
+  url = {https://link.aps.org/doi/10.1103/RevModPhys.94.025006}
+}
+```
+The paper can then be cited in the text as follow "several methods of beam shaping exist as reviewed in~\cite{RevModPhys.94.025006}". When writing a paper with large number of reference (e.g. your dissertation)  it is convenient to organize the .bib file so that the reference are listed in a given order to avoid duplication. One way of proceeding is to use a tag of the form ```author-year-letter``` in this convension the paper cited above would be tag ```ha-2022-a``` instead of ```RevModPhys.94.025006```. If the author Ha had another paper in 2022, the second paper would be tag ```ha-2022-b```, etc... The use of a bib file is very conveninent: LaTeX will order the reference in the generation bibliography accordingly to the journal template format (often by order of appearance but some by first-author alphabetical order). 
+
+
 ## Latex formating
 
 In LaTeX you can cross reference figure, equation, tale and algorithm so that the numerbering is automatically generated. A good practice is to use meaning full tags. For instance a figure could be tagged with the ```\label{fig:bunchDistribution}``` and latter called in the text as ```Figure~\ref{fig:bunchDistribution} displayed the bunch distribution at the location [...]```. The same can be done for other object for instance ```Eq.~\label{eq:bunchDistributionInit}``` or ```Table~\label{tab:bunchDistributionInit}```. The convention to tag the object with a string defining the type of the object and the object label (separated with a ```:```) is good practice. For very long manuscript or thesis the label can also have another tag refering to the chapter, i.e.  ```Eq.~\label{chapt1:tab:bunchDistributionInit}```. Similarly cross-referencing of section can be accomplished by adding the reference label in the section ```\section{Introduction and Motivation \ref{sec:intro}```. For Figures and Tables, it is best to insert the ```\ref{}``` command in the Figure or Table captions directly. 
@@ -66,3 +87,6 @@ ax1.text(0.075, 0.9,r'(a)', ha='center', va='center', transform=ax1.transAxes)  
 
 ```
 so that it can be unambigously referenced in the caption and text body (using a letter label is better than refering the plot with respect to its location on the figure (e.g. top left...).  
+
+When a plot include many traces it is always good to add abreviated labels that can be refered/explained in the figure caption. 
+
