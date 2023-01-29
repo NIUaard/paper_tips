@@ -51,7 +51,7 @@ Ponctuation around an equation should follow standard practice. That is is the e
 In general the figure should not have any title (e.g. above plots) and the caption should be use to describe the figure content. The caption should be self contained and explain the figure including meaning of abbreviated labels, meaning of traces, etc...
 
 ### Graphical arts
-A paper often include schematics. Simple schematics (electric circuits) can be done in openOffice (slide) or equivalent. For better results, open-source software like [InkScape](https://inkscape.org/)  and [Blender] (https://www.blender.org/) are recommended. 
+A paper often include schematics. Simple schematics (electric circuits) can be done in openOffice (slide) or equivalent. For better results, open-source software like [InkScape](https://inkscape.org/)  and [Blender](https://www.blender.org/) are recommended. 
 
 ### Plots
 The plot axis label, legend and other annotations should all use LaTeX fonts similar to the one used in the text body. For matplotlib you can use or modify one of the several mplg configuration files available in the [matplotlibConfigExample sub-directory](matplotlibConfigExample)
