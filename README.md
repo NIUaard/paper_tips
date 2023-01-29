@@ -54,6 +54,7 @@ In general the figure should not have any title (e.g. above plots) and the capti
 A paper often include schematics. Simple schematics (electric circuits) can be done in openOffice (slide) or equivalent. For better results, open-source software like [InkScape](https://inkscape.org/)  and [Blender](https://www.blender.org/) are recommended. 
 
 ### Plots
+A open-source versatile program for plotting purpose is the [matplotlib Python module](https://matplotlib.org/). Matplotlib has an extensive documentation with examples that can be modified to perform most of the plot you will neee to generate; see [matplotlib examples](https://matplotlib.org/stable/plot_types/index.html)
 The plot axis label, legend and other annotations should all use LaTeX fonts similar to the one used in the text body. For matplotlib you can use or modify one of the several mplg configuration files available in the [matplotlibConfigExample sub-directory](matplotlibConfigExample)
 
 The labels should have clearly indicate the quantity plotted and its units in parentheses "(units)" (avoid using brackets or others symbols instead of parentheses). The typical value should be on the order of unity that is if you plot the frequency in Hz and it has value of $10^15$ then it should be rescaled to have units of PHz. 
