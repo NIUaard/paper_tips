@@ -58,4 +58,10 @@ The plot axis label, legend and other annotations should all use LaTeX fonts sim
 
 The labels should have clearly indicate the quantity plotted and its units in parentheses "(units)" (avoid using brackets or others symbols instead of parentheses). The typical value should be on the order of unity that is if you plot the frequency in Hz and it has value of $10^15$ then it should be rescaled to have units of PHz. 
 
-In case of composite figure, it is best to prepare the composite figure within the plotting pogram; see a matplotlib example at XXX. Avoid merging single-plot figure within LaTeX. The figure should also have a letter label so that it can be referenced in the caption and text body (using a letter label is better than refering the plot with respect to its location on the figure (e.g. top left...). 
+In case of composite figure, it is best to prepare the composite figure within the plotting pogram; see the directory [example_subplots sub-directory](example_subplots). Avoid merging single-plot figure within LaTeX, it usually waste and does not provide precise control over the sub-figures placements and sizes. The figures should also have a letter label using the command
+```
+ax1.plot (xx[:,0], (xx[:,4]/xx[2,4]-1),'d--', label=r'$\varepsilon_z$')  # create the subplots
+ax1.text(0.075, 0.9,r'(a)', ha='center', va='center', transform=ax1.transAxes)  # add the tag (a) to the subplot
+
+```
+so that it can be referenced in the caption and text body (using a letter label is better than refering the plot with respect to its location on the figure (e.g. top left...). 
