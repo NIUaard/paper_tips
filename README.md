@@ -15,7 +15,7 @@ The title of the paper should be crisp and inform the nature of the work (experi
 There is no universal convention on authorship and list of authors. In our group, the list of authors should have the main authors [the student(s) in charge of the research who drafted the paper) followed by all contributors in alphabetical order. ```Effective 2023, refereed papers should have an authors contribution statement after the acknowledgment (some of the journals do require such a section) ```. For papers published in reference proceedings, this section should be omitted given the limited number of pages. The main author can also add her/his formal (institution) contact information (email). Avoid using personal e-mail addresses. 
 
 ### Bibliography
-An important aspect of writing a paper is to credit historical development, related work, and previous research your paper builds on. This is the role of the bibliography. In LaTeX, the best way to manage the bibliography is to use the ```BibTeX `` format. Specifically, you can create a file ```myreference.bib`` that lists the paper you wish to cite in the BibTeX format. An entry in the bib file may look like
+An important aspect of writing a paper is to credit historical development, related work, and previous research your paper builds on. This is the role of the bibliography. In LaTeX, the best way to manage the bibliography is to use the ```BibTeX ``` format. Specifically, you can create a file ```myreference.bib``` that lists the paper you wish to cite in the BibTeX format. An entry in the bib file may look like
 ```
 @article{RevModPhys.94.025006,
   title = {Bunch shaping in electron linear accelerators},
