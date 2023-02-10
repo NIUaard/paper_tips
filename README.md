@@ -50,6 +50,11 @@ Generally when referring to figure, and equation you can use the abbreviated for
 
 **The special case of $\textmu{}$:** unit involving microns should use the ```\textmu{}``` command rather than the ```$\mu$``` mathematical symbol for instance ```10.23\mbox{~}\textmu{m}}``` is written as $10.23\textmu{m}$ rather than ```$10.23 \mu$m``` (which would results in an italicized mu, i.e., written as $10.23 \mu$m )
 
+** The "dont's":
+- do not use scientific copmuter notations: for instance ```1E-10``` should be ```$1\times 10^{-10}$``` so that it appears as $1\times 10 ^{-10}$. 
+- do not use the symbold ```*``` for multiplication but ```$\times$ ``` so that is appreas as $\times$.
+- do not refer to an ucomping equation for instance ``` the model is described by the following Eq.~\ref{eq:model} [...]``` should just be ``` the model is described by the equation [...]```
+
 ### Equations
 when writing an equation you should make sure all the symbols have been a priori introduced. If new symbols appear in the equation they should be defined immediately following the equation. For instance
 
